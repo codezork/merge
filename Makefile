@@ -1,5 +1,5 @@
 run:
-	go run ./main -v interval "[1,10][20,23][6,19][2,7]"
+	go run ./main.go -v interval "[1,10][20,23][6,19][2,7]"
 
 go_build_version=`cat ./version.yaml |awk -F" " '{print $$2}'`
 build:
